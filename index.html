@@ -132,7 +132,7 @@
                         <div id="sort_Name" class="sortcmd">Titre &nbsp;<span id="dir_Name"></span></div>
                         <div id="sort_Url" class="sortcmd">Url &nbsp;<span id="dir_Url"></span></div>
                         <div id="sort_Category" class="sortcmd">Catégorie &nbsp;<span id="dir_Category"></span></div>
-                        <div id="sort_Username" class="sortcmd">Username &nbsp;<span id="dir_Username"></span></div>
+                        <!--<div id="sort_Username" class="sortcmd">Username &nbsp;<span id="dir_Username"></span></div>-->
                         <div>
                             <button id="showAdditem"
                                     tooltip="Ajouter un favori" tooltip-position="left">
@@ -255,7 +255,8 @@
 
                 // Créer dynamiquement la classe css déterminant le nombre de colonnes et 
                 // leurs largeurs respectives
-                createCssClass('.columns-layout',"display: grid; grid-template-columns: 20% 30% 20% 20% 5% 5%;");     
+                createCssClass('.columns-layout',"display: grid; grid-template-columns: 20% 50% 20% 5% 5%;");
+                //createCssClass('.columns-layout',"display: grid; grid-template-columns: 20% 30% 20% 20% 5% 5%;");     
             }
             function initEditDialog(){
                 $("#dialog-editForm").dialog( 
